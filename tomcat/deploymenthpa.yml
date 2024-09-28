@@ -18,7 +18,7 @@ spec:
         spec: 
           containers:
              - name: backendapp
-               image: tomcat:latest
+               image: umar7867/back
                ports:
                   - containerPort: 8080
                     protocol: TCP
